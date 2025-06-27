@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: your-dockerhub-username/backend:latest
+          image: bhushankhutle/backend-app:v1
           ports:
             - containerPort: 3000
 ---
